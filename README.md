@@ -4,7 +4,7 @@ This is the final project regarding the CSC212 (Computer Architecture) course ta
 Applied in this final project, are concepts of arithmetic logic operaions, Bitmap display, and sound output.<br/><br/>
 **Main Features:**<br/>
 🚀 Shoot-em up space invaders themed.<br/>
-🌌 Navigating a main menu, controls explanation!<br/>
+🕹️ Navigating a main menu, controls explanation!<br/>
 ☄️ Score the highest!
 
 ##  How It's Made: 
