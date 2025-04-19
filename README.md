@@ -5,7 +5,7 @@ Applied in this final project, are concepts of arithmetic logic operaions, Bitma
 **Main Features:**<br/>
 🚀 Shoot-em up space invaders themed.<br/>
 🕹️ Navigating a main menu, controls explanation!<br/>
-👾 Random enemy spawning!<br/>
+👾 Random enemy spawning & they never spawn over each other!<br/>
 ☄️ Score the highest!
 
 ##  How It's Made: 
