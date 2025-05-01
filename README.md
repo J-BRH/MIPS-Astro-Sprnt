@@ -5,7 +5,7 @@ Applied in this final project, are concepts of arithmetic logic operaions, Bitma
 **Main Features:**<br/>
 🚀 Shoot-em up space invaders themed.<br/>
 🕹️ Navigating a main menu, controls explanation!<br/>
-👾 Random enemy spawning. They never spawn over each other!<br/>
+👾 Random enemy spawning!<br/>
 ☄️ Score the highest!
 
 ##  How It's Made: 
@@ -27,4 +27,8 @@ Make sure to open the Bitmap display, the Keyboard and Display MMIO simulator, a
 <img width="256" alt="controls" src="https://github.com/user-attachments/assets/a015ecbd-3209-4bc4-a327-3ec27a2b952b" /><br/><br/>
  
 ▫️Once the user starts the game, they are met with the above controls explanation screen. Upon proceeding, the player ship is rendered along with the health bar, as such the user is allowed 3 "hearts" or "hits" before the game ends.<br/>
-
+▫️Moreover, a spawn grid is set in place, allowing enemies to spawn on top, and bullets on the bottom. Each "tick" updates the enemies and bullet positions, detects for collisions, and cleans up explosions.<br/>
+▫️Another point to keep in mind, is that the user's movements are the "tick" running the game. If no movement is detected, the game does not spawn enemies, does not move bullets, and does not check for collisions or out of bounds enemies and bullets.<br/>
+<img width="256" alt="gameplay" src="https://github.com/user-attachments/assets/b63d5c45-e2d6-4a9d-8a60-f7b3bd3a0e0c" /><img width="16" alt="dividor" src="https://github.com/user-attachments/assets/9349b32a-9ff9-459b-b4ef-9a15d2bcd1cc" />
+<img width="256" alt="gameplay2" src="https://github.com/user-attachments/assets/0ff05686-908b-479d-885b-efdea51f1639" /><img width="16" alt="dividor" src="https://github.com/user-attachments/assets/9349b32a-9ff9-459b-b4ef-9a15d2bcd1cc" />
+<img width="256" alt="grid" src="https://github.com/user-attachments/assets/cbe8e5d7-2dd6-4813-a3f7-3e9e2261d7b8" /><br/><br/>
